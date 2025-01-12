@@ -1,4 +1,4 @@
-// Platform.mods.mek1000overdrive.name = 'Mek1303030'
+// Platform.mods.mek1000overdrive.name = 'Mek1000overdrive'
 /*
     5倍化からは1000倍
     5倍化設備 浄化結晶II  からは 10000mB (非圧縮)
@@ -33,12 +33,12 @@
 */
 
 let orelist = [
-    {type:`iron`         ,name:`Iron`         ,color:0x303030},
+    {type:`iron`         ,name:`Iron`         ,color:0xf2f2f2},
     {type:`gold`         ,name:`Gold`         ,color:0xF2CD67},
-    {type:`copper`       ,name:`Copper`       ,color:0x303030},
-    {type:`uranium`      ,name:`Uranium`      ,color:0x303030},
-    {type:`iridium`      ,name:`Iridium`      ,color:0x303030},
-    {type:`lead`         ,name:`Lead`         ,color:0x303030},
+    {type:`copper`       ,name:`Copper`       ,color:0xd8a31e},
+    {type:`uranium`      ,name:`Uranium`      ,color:0x96f996},
+    {type:`iridium`      ,name:`Iridium`      ,color:0xf0f8ff},
+    {type:`lead`         ,name:`Lead`         ,color:0x5d9c9e},
     {type:`tin`          ,name:`Tin`          ,color:0xCCCCD9},
     {type:`osmium`       ,name:`Osmium`       ,color:0x52BDCA},
     {type:`redstone`     ,name:`Redstone`     ,color:0xff0f0f},
@@ -49,7 +49,7 @@ let orelist = [
     {type:`diamond`      ,name:`Diamond`      ,color:0x22a0f0},
     {type:`emerald`      ,name:`Emerald`      ,color:0x22f050},
     {type:`lapis`        ,name:`Lapis`        ,color:0x3333f0},
- // {type:`fate`         ,name:`Fate`         ,color:0xffffff},
+    {type:`fate`         ,name:`Fate of Infinity` ,color:0xff7f3f},
 ]
 onEvent('item.registry', event => {
     let regist_overdrive_items= (ore_component,ore_name) => {
@@ -127,7 +127,7 @@ onEvent('item.registry', event => {
             .rarity(`rare`)
             .glow(true)
             .barWidth(itemstack => 13)
-            .barColor(itemstack => Color.BLACK)
+            .barColor(itemstack => Color.GRAY)
     };
 
     regist_overdrive_items("iron","Iron")
@@ -176,8 +176,8 @@ onEvent('fluid.registry', event => {
 
 onEvent('mekanism.gas.registry', event => {
     orelist.forEach(ore_component=>{
-        event.create(`mek1000overdrive:purified2_${ore_component.type}`).displayName(`Purified Compressed ${ore_component.name} Gas`).color(ore_component.color-0x090909)
-        event.create(`mek1000overdrive:active2_${ore_component.type}`).displayName(`Active Compressed ${ore_component.name} Gas`).color(ore_component.color-0x050505)
+        event.create(`mek1000overdrive:purified2_${ore_component.type}`).displayName(`Purified Compressed ${ore_component.name} Mk2 Gas`).color(ore_component.color-0x090909)
+        event.create(`mek1000overdrive:active2_${ore_component.type}`).displayName(`Active Compressed ${ore_component.name} Mk2 Gas`).color(ore_component.color-0x050505)
         event.create(`mek1000overdrive:cluster2_${ore_component.type}`).displayName(`${ore_component.name} Hyper-Cluster Gas`).color(ore_component.color-0x020202)
         event.create(`mek1000overdrive:reactive_cluster2_${ore_component.type}`).displayName(`Reactive ${ore_component.name} Hyper-Cluster Gas`).color(ore_component.color-0x101010)
         event.create(`mek1000overdrive:unstable_active2_${ore_component.type}`).displayName(`Unstable ${ore_component.name} Hyper-Cluster Gas`).color(ore_component.color-0x121212)
