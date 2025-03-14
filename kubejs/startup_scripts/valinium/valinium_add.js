@@ -12,7 +12,7 @@ onEvent('item.registry.tool_tiers', event => {
 onEvent('item.registry.armor_tiers', event => {
     // Slot indicies are [FEET, LEGS, BODY, HEAD]
     event.add('valinium', tier => {
-        tier.durabilityMultiplier = 256 // Each slot will be multiplied with [13, 15, 16, 11]
+        tier.durabilityMultiplier = 512 // Each slot will be multiplied with [13, 15, 16, 11]
         tier.slotProtections = [6, 15, 18, 6]
         tier.enchantmentValue = 25
         tier.equipSound = 'minecraft:item.armor.equip_iron'
