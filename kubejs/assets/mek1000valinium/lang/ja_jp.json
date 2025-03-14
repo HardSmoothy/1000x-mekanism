@@ -1,0 +1,21 @@
+{
+    "language.name": "日本語",
+    "language.code": "ja_jp",
+
+    "gas.mek1000valinium.anti_hydrogen": "反水素ガス",
+    "gas.mek1000valinium.anti_hydride_valine": "反水素化バリン3gガス (VAH)",
+    "gas.mek1000valinium.valinium": "バリニウムガス (活性化VAH)",
+
+    "item.mek1000valinium.valine_ingot": "バリニウムインゴット",
+    "item.mek1000valinium.valine_sword": "バリニウムの剣",
+    "item.mek1000valinium.valine_pickaxe": "バリニウムのピッケル",
+    "item.mek1000valinium.valine_axe": "バリニウムの斧",
+    "item.mek1000valinium.valine_hoe": "バリニウムのクワ",
+    "item.mek1000valinium.valine_paxel": "バリニウムのパクセル",
+    "item.mek1000valinium.valine_helmet": "バリニウムのヘルメット",
+    "item.mek1000valinium.valine_chestplate": "バリニウムのチェストプレート",
+    "item.mek1000valinium.valine_leggings": "バリニウムのレギンス",
+    "item.mek1000valinium.valine_boots": "バリニウムのブーツ",
+    
+    "block.mek1000valinium.valine_block": "バリニウムブロック"
+}

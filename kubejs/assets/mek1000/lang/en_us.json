@@ -23,11 +23,5 @@
     
     "fluid.mek1000.liquid_antimatter": "Liquid Antimatter",
     
-    "effect.mek1000.straycat_bressing": "Bressing from StrayCat",
-
-    "gas.mek1000valinium.anti_hydrogen": "Anti-Hydrogen Gas",
-    "gas.mek1000valinium.anti_hydride_valine": "Valine Anti-Hydride Gas (VAH)",
-    "gas.mek1000valinium.valinium": "Valinium Gas (Activated VAH)",
-
-    "block.mek1000valinium.valine_block": "Block of Valinium ingot"
+    "effect.mek1000.straycat_bressing": "Bressing from StrayCat"
 }

@@ -1,0 +1,22 @@
+{
+    "language.name": "English",
+    "language.region": "United States",
+    "language.code": "en_us",
+
+    "gas.mek1000valinium.anti_hydrogen": "Anti-Hydrogen Gas",
+    "gas.mek1000valinium.anti_hydride_valine": "Valine Anti-Hydride Gas (VAH)",
+    "gas.mek1000valinium.valinium": "Valinium Gas (Activated VAH)",
+    
+    "item.mek1000valinium.valine_ingot": "Valinium Ingot",
+    "item.mek1000valinium.valine_sword": "Valinium Sword",
+    "item.mek1000valinium.valine_pickaxe": "Valinium Pickaxe",
+    "item.mek1000valinium.valine_axe": "Valinium Axe",
+    "item.mek1000valinium.valine_hoe": "Valinium Hoe",
+    "item.mek1000valinium.valine_paxel": "Valinium Paxel",
+    "item.mek1000valinium.valine_helmet": "Valinium Helmet",
+    "item.mek1000valinium.valine_chestplate": "Valinium Chestplate",
+    "item.mek1000valinium.valine_leggings": "Valinium Leggings",
+    "item.mek1000valinium.valine_boots": "Valinium Boots",
+    
+    "block.mek1000valinium.valine_block": "Block of Valinium ingot"
+}

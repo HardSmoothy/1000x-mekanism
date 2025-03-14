@@ -22,11 +22,5 @@
 
     "fluid.mek1000.liquid_antimatter": "液化反物質",
     
-    "effect.mek1000.straycat_bressing": "迷いネコの祝福",
-
-    "gas.mek1000valinium.anti_hydrogen": "反水素ガス",
-    "gas.mek1000valinium.anti_hydride_valine": "反水素化バリン3gガス (VAH)",
-    "gas.mek1000valinium.valinium": "バリニウムガス (活性化VAH)",
-
-    "block.mek1000valinium.valine_block": "バリニウムブロック"
+    "effect.mek1000.straycat_bressing": "迷いネコの祝福"
 }
